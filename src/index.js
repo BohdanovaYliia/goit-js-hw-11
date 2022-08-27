@@ -1,4 +1,4 @@
-import refs from './refs';
+import { refs } from './refs';
 import PhotosApiService from './photo-service';
 import makeMarkupOfPhotoCards from './make-markup';
 import Notiflix from 'notiflix';
