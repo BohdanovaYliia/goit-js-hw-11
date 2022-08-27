@@ -1,3 +1,5 @@
-const refs = {
-    form: document.querySelector('#search-form'),
+export default refs = {
+    searchForm: document.querySelector('#search-form'),
+    loadMoreBtn: document.querySelector('.load-more'),
+    galleryContainer: document.querySelector('.gallery'),
 };
