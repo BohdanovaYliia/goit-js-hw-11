@@ -32,7 +32,10 @@ function onFormSubmit(evt) {
         removeClass(refs.loadMoreBtn, 'is-hidden');
 
         lightbox.refresh();
-    });  
+    })
+    .catch(error => {
+        console.log(error);
+  });  
 }
 
 function onLoadMoreBtnClick() {
